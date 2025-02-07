@@ -3,21 +3,21 @@ import { getDatabase, ref, push } from 'firebase/database';
 
 // Your Firebase configuration (replace with your actual config)
 const firebaseConfig = {
-  apiKey: 'AIzaSyC00rVcANtK11UCVv73ioLcQfEXNYNazxU',
+  apiKey: 'xxxxx',
 
-  authDomain: 'ideathon-34e9f.firebaseapp.com',
+  authDomain: 'xxxxx',
 
-  databaseURL: 'https://ideathon-34e9f-default-rtdb.firebaseio.com',
+  databaseURL: 'xxxx',
 
-  projectId: 'ideathon-34e9f',
+  projectId: 'xxxx',
 
-  storageBucket: 'ideathon-34e9f.firebasestorage.app',
+  storageBucket: 'xxxx',
 
-  messagingSenderId: '342279182014',
+  messagingSenderId: 'x',
 
-  appId: '1:342279182014:web:989b5c18d48d082396f0ef',
+  appId: '1:xxx',
 
-  measurementId: 'G-YJK31NFSLG',
+  measurementId: 'xxxxFSLG',
 };
 
 // Initialize Firebase
@@ -25,3 +25,4 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 export { database, ref, push };
+// if you want to clone this repo,  then firstly create a firebase account and generate your own api key.
